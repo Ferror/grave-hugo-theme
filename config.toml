@@ -1,0 +1,17 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Grave Framework Website"
+theme = "grave"
+
+[Author]
+    name = "Zbigniew Malcherczyk"
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Posts"
+        url = "/posts/"
+        weight = 2
